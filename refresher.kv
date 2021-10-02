@@ -1,0 +1,10 @@
+Screen:
+	MDRaisedButton:
+		size_hint: (1, 1)
+		text:'Press'
+		md_bg_color: 1, 0, 1, 1
+		on_press:
+			app.refresh()
+		on_release:
+			app.stop()
+			app.close()
